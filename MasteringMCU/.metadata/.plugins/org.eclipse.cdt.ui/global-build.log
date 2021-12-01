@@ -1,0 +1,17 @@
+18:48:44 **** Incremental Build of configuration Debug for project UART2_example ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "UART2_example.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\leona\Dropbox\My PC (LAPTOP-0GJU559A)\Documents\github\STM32-codes\MasteringMCU\UART2_example\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_example.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_example.elf
+ 
+arm-none-eabi-objdump -h -S  UART2_example.elf  > "UART2_example.list"
+arm-none-eabi-objcopy  -O binary  UART2_example.elf  "UART2_example.bin"
+arm-none-eabi-size   UART2_example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4356	     20	   1628	   6004	   1774	UART2_example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_example.bin
+Finished building: UART2_example.list
+ 
+ 

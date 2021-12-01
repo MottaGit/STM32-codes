@@ -1,0 +1,5 @@
+1638314889749	Delete 3 resources
+1638314991756	Delete resource 'UART2_example/Core/Inc/main.h'
+1638314997959	Delete resource 'UART2_example/Core/Inc/stm32f4xx_it.h'
+1638315014563	Delete resource 'UART2_example/Core/Src/sysmem.c'
+1638315017305	Delete resource 'UART2_example/Core/Src/syscalls.c'
