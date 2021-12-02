@@ -2827,3 +2827,7 @@
 2021-12-01 22:28:36,136 [WARN] IP:2091 - OutPut2 not found: check if there is a RefParameter without a condition.
 2021-12-01 22:28:36,136 [WARN] IP:2091 - OutPut3 not found: check if there is a RefParameter without a condition.
 2021-12-01 22:28:41,164 [INFO] DmaTabbedPanel:192 - Cannot restore the selected Tab for DMA
+2021-12-02 12:19:52,079 [INFO] Activator:170 - 
+
+
+2021-12-02 12:19:52,124 [INFO] Activator:171 - !SESSION log4j initialized
