@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;CAN_LoopBack&apos;" deleteContents="false" description="Delete resource &apos;CAN_LoopBack&apos;" element1="/CAN_LoopBack" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1638408143761"/>&#x0A;<refactoring comment="Delete resource &apos;FDCAN_MCP2551&apos;" deleteContents="false" description="Delete resource &apos;FDCAN_MCP2551&apos;" element1="/FDCAN_MCP2551" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1638408304048"/>
+</session>
