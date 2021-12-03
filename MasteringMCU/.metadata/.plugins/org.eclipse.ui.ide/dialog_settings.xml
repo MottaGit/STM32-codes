@@ -9,6 +9,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\leona\Dropbox\My PC (LAPTOP-0GJU559A)\Documents\github\STM32-codes\MasteringMCU\UART2_example2"/>
 			<item value="C:\Users\leona\Dropbox\My PC (LAPTOP-0GJU559A)\Documents\github\e-power_STM32\FDCAN_MCP2551"/>
 		</list>
 	</section>
