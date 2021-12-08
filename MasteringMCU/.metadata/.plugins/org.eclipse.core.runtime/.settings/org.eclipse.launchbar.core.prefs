@@ -1,7 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example2,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example_IT Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example2,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example_IT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Aula_epower Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Aula_epower\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Aula_epower\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART2_example/activeLaunchTarget=null\:---

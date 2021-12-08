@@ -1,24 +1,24 @@
-18:37:08 **** Incremental Build of configuration Debug for project UART2_example_IT ****
+20:34:03 **** Incremental Build of configuration Debug for project Aula_epower ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "UART2_example_IT.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\leona\Dropbox\My PC (LAPTOP-0GJU559A)\Documents\github\STM32-codes\MasteringMCU\UART2_example_IT\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_example_IT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: UART2_example_IT.elf
+arm-none-eabi-gcc -o "Aula_epower.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\leona\Dropbox\My PC (LAPTOP-0GJU559A)\Documents\github\STM32-codes\MasteringMCU\Aula_epower\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Aula_epower.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Aula_epower.elf
  
-arm-none-eabi-objdump -h -S  UART2_example_IT.elf  > "UART2_example_IT.list"
-arm-none-eabi-objcopy  -O binary  UART2_example_IT.elf  "UART2_example_IT.bin"
-arm-none-eabi-size   UART2_example_IT.elf 
+arm-none-eabi-objdump -h -S  Aula_epower.elf  > "Aula_epower.list"
+arm-none-eabi-objcopy  -O binary  Aula_epower.elf  "Aula_epower.bin"
+arm-none-eabi-size   Aula_epower.elf 
    text	   data	    bss	    dec	    hex	filename
-   7480	     24	   1744	   9248	   2420	UART2_example_IT.elf
+   5996	     24	   1632	   7652	   1de4	Aula_epower.elf
 Finished building: default.size.stdout
  
-Finished building: UART2_example_IT.bin
+Finished building: Aula_epower.bin
  
-Finished building: UART2_example_IT.list
+Finished building: Aula_epower.list
  
-18:37:14 **** Incremental Build of configuration Debug for project UART2_example_IT ****
+20:34:09 **** Incremental Build of configuration Debug for project Aula_epower ****
 make -j8 all 
-arm-none-eabi-size   UART2_example_IT.elf 
+arm-none-eabi-size   Aula_epower.elf 
    text	   data	    bss	    dec	    hex	filename
-   7480	     24	   1744	   9248	   2420	UART2_example_IT.elf
+   5996	     24	   1632	   7652	   1de4	Aula_epower.elf
 Finished building: default.size.stdout
  

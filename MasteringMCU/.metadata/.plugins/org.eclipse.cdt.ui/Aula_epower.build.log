@@ -1,0 +1,10 @@
+20:34:09 **** Incremental Build of configuration Debug for project Aula_epower ****
+make -j8 all 
+arm-none-eabi-size   Aula_epower.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5996	     24	   1632	   7652	   1de4	Aula_epower.elf
+Finished building: default.size.stdout
+ 
+
+20:34:10 Build Finished. 0 errors, 0 warnings. (took 528ms)
+
