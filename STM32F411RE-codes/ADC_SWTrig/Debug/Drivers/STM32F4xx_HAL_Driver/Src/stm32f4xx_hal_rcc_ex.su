@@ -1,0 +1,4 @@
+stm32f4xx_hal_rcc_ex.c:109:6:HAL_RCC_DeInit	0	static
+stm32f4xx_hal_rcc_ex.c:2043:19:HAL_RCCEx_PeriphCLKConfig	32	static,ignoring_inline_asm
+stm32f4xx_hal_rcc_ex.c:2170:6:HAL_RCCEx_GetPeriphCLKConfig	8	static,ignoring_inline_asm
+stm32f4xx_hal_rcc_ex.c:2626:6:HAL_RCCEx_SelectLSEMode	0	static

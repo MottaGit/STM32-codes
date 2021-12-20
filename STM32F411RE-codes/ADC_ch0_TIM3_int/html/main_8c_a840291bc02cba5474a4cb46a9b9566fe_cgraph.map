@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$adc_8c.html#acccd58aa70215a6b184ad242312ffd0c" title="MX_ADC1_Init" alt="" coords="133,5,238,32"/>
+<area shape="rect" id="node4" href="$gpio_8c.html#ac724e431d2af879252de35615be2bdea" title="MX_GPIO_Init" alt="" coords="134,56,237,83"/>
+<area shape="rect" id="node5" href="$tim_8c.html#a897293ac5474c491773ec7404c531c3b" title="MX_TIM10_Init" alt="" coords="132,107,239,133"/>
+<area shape="rect" id="node6" href="$tim_8c.html#a7912f2916786a2c33cb6fb8259ade58c" title="MX_TIM3_Init" alt="" coords="136,157,235,184"/>
+<area shape="rect" id="node7" href="$usart_8c.html#a052088fe5bb3f807a4b2502e664fd4fd" title="MX_USART2_UART_Init" alt="" coords="104,208,267,235"/>
+<area shape="rect" id="node8" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="SystemClock_Config" alt="" coords="114,259,257,285"/>
+<area shape="rect" id="node3" href="$main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence. " alt="" coords="315,157,416,184"/>
+</map>

@@ -1,0 +1,40 @@
+/*
+ * daly-bms-uart.c
+ *
+ *  Created on: 17 de dez de 2021
+ *      Author: leona
+ */
+
+
+#include <string.h>
+#include "daly-bms-uart.h"
+
+int Daly_BMS_UART_Init()
+{
+	my_txBuffer[0] = 0xA5;			// Start byte
+	my_txBuffer[1] = 0x80; 			// Host address
+	my_txBuffer[3] = 0x08; 			// Data Length
+
+    for (int i = 4; i < 12; i++)	// Bytes 5-11 com 0x00
+    {
+        my_txBuffer[i] = 0x00;
+    }
+
+    return 1;
+}
+
+void sendCommand(COMMAND  cmID)
+{
+	my_txBuffer[2] = cmdID;
+	uint8_t checksum = 0x2D + cmdID;
+	my_txBuffer[12] = checksum;
+}
+
+void getPackMeasurements(float *_voltage, float *_current, float *_SOC)
+{
+	//sendCommand(VOUT_IOUT_SOC);
+
+
+
+}
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;UART2_BMS_communication/Core/Inc/daly-bms-uart&apos;" deleteContents="false" description="Delete resource &apos;UART2_BMS_communication/Core/Inc/daly-bms-uart&apos;" element1="/UART2_BMS_communication/Core/Inc/daly-bms-uart" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1639771956919"/>
+</session>
